@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.display{
+  font-size: 35px;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+
+  :first-child{
+  background-color: green;
+}
+
+  :nth-child(2){
+    background-color: red;
+  }
+
+  :last-child{
+    background-color: orange;
+  }
+
+  button{
+    width: 30%;
+  }
+}
+
+.history{
+  display: flex;
+  flex-direction: column;
+}
+
+.clear-button {
+  background-color: transparent;
+  align-self: flex-end;
+}
